@@ -1,3 +1,7 @@
+App web creada con React.js que muestra el clima en tiempo real de cualquier ciudad del mundo, esto gracias a que consume una API de OpenWeatherMap para obtener esta informacion y actualizarla al instante.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
