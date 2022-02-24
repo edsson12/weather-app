@@ -1,0 +1,17 @@
+@use "../globals.scss";
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width:#{$width}){
+        @content
+    }
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-family: globals.$fuente;
+}

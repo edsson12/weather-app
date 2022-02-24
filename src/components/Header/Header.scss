@@ -1,0 +1,24 @@
+@use "../globals.scss";
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width:#{$width}){
+        @content
+    }
+}
+.o-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h1{
+        font-family: globals.$fuente;
+        color: globals.$btnColor;
+        white-space: nowrap;
+        font-size: 3rem;
+        @include mobile{
+            font-size: 3rem;
+        }
+    }
+}
