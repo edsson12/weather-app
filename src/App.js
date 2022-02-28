@@ -44,7 +44,7 @@ if (resultado.cod==="404") {
 }
   }
   consultarAPI();
-}, [consultar])
+}, [consultar, ciudad, pais])
 
 
 let componente;

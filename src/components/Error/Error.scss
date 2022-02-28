@@ -1,4 +1,4 @@
-@use "../globals.scss";
+@import "../globals.scss";
 
 $width: 768px;
 
@@ -13,5 +13,5 @@ p{
     justify-content: center;
     align-items: center;
     color: red;
-    font-family: globals.$fuente;
+    font-family: $fuente;
 }
